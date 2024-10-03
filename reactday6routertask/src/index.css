@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu li {
+  font-size: 18px;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.nav-menu li a:hover {
+  background-color: #ddd;
+}
